@@ -1,0 +1,17 @@
+body{
+
+    background-image: linear-gradient(to right,red, rgb(243, 241, 234));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a{
+    margin: auto;
+    padding: 300px;
+    border: 0cap;
+
+}
+
+img{
+    padding: 0%;
+}
