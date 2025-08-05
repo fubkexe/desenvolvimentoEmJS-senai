@@ -51,25 +51,25 @@ main{
     max-width: 50vw;
     margin-bottom: 20px;
     margin: auto;
+    margin-top: 20PX;
+    
 }
 
 h2{
     text-align: center;
     margin-bottom: 20px;
-}
 
 
-
-#ingredientes{
-    
 
 }
 
 section{
     margin: auto;
-    width: 80%;
+    width: 94%;
     text-align: center;
 }
+
+
 
 div{
     display: inline-block;
@@ -90,7 +90,7 @@ div:hover{
     scale: 1.05;
 }
 
-footer>p{
+footer{
     position: fixed;
     bottom: 0;
     width: 100vw;

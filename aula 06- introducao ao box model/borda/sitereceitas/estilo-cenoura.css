@@ -1,0 +1,44 @@
+main{
+      max-width: 50vw;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--cor-main);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   
+
+}
+
+section{
+    text-align: left;
+    
+}
+
+#cenoura{
+    text-align: left;
+}
+
+li{
+    margin-left: 60px;
+}
+
+ul{
+    margin: 20px;
+}
+
+ol{
+    margin: 20px;
+}
+
+img{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+h3{
+    margin: 10px;
+}
