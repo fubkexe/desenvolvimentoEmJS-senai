@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    width: 100vw;
+    height: 100vw;
+    background-image: linear-gradient(to bottom, #526264, #8619a7, #0078c2);
+}
+
+main{
+    
+    margin: 50px auto;
+    height: 50%;
+    width: 50%;
+    border: 0.5px solid black;
+    box-shadow: 3px 3px 10px black;
+    background-color: white;
+    border-radius: 10px;
+    border
+}
