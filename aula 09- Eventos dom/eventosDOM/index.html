@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS DOM</title>
+    <style>
+        div{
+            width: 300px;
+            margin: 20px auto;
+            padding: 50px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.267);
+        }
+    </style>
+</head>
+<body>
+
+    <div onmousemove="mudacor()" id="caixa" onmouseout="voltacor()">
+        CAIXA
+
+        
+    </div>
+
+    <script>
+        function mudacor(){
+            let caixa = document.getElementById("caixa")
+            caixa.style.background = "blue"
+
+        
+            }
+             function voltacor(){
+             let caixa = document.getElementById("caixa")
+             caixa.style.background = "white"
+
+        }
+
+        
+    </script>
+    <!-- a primeira funcao nao funciona quando esta abaixo da segunda funcao, ela deve ficar fora da primeira funcao -->
+</body>
+</html>
