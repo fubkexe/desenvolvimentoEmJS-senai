@@ -4,6 +4,7 @@ function mostrarResultado(){
     let notaRecuperacao = document.querySelector("#notaRecuperacao")
     let resultadoMedia = document.querySelector("#media")
     let resultado =document.querySelector("#resultado")
+    notaRecuperacao.style.display ="none"
 
     let valorNotaRecuperacao = parseInt(notaRecuperacao.value)
 
@@ -13,9 +14,17 @@ function mostrarResultado(){
     if (media >= 70){
         resultado.innerHTML =   "APROVADO"
         resultado.style.color = "green"
+        notaRecuperacao.style.display = "none"
     } else if (media >=50) {
-        resultado.innerHTML = "RECUPERAÇÃO"
-        resultado.style.color = "orange"
+        let valorNotaRecuperacao = parseInt(notaRecuperacao.value)
+        
+
+        if(isNaN(valorNotaRecuperacao)){
+            resultado.innerHTML = "RECUPERACAO"
+            resultado.style.color = "orange"
+            notaRecuperacao.style.display = "block"
+            notaRecuperacao.style.display ="none"
+        } else if (mediaFinal)
 
 
         notaRecuperacao.style.display = "block"
