@@ -7,6 +7,16 @@ if (media >= 70){
     
 } else if (media >=50){
     console.log("RECUPERAÇÃO");
+    let recuperacao = 90
+    let mediaFinal = (media + mediaFinal) / 2
+
+    if (mediaFinal >=70){
+        console.log(APROVADO);
+        
+    } else{
+        console.log(REPROVADO);
+        
+    }
     
 } else{
     console.log(REPROVADO);
