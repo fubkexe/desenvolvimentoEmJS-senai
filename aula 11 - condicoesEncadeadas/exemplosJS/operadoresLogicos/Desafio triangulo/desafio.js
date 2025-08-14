@@ -1,8 +1,8 @@
-function mostrarResultado (){
+function mostrarResultado(){
     let ladoA = parseInt(document.querySelector("#lado1").value)
     let ladoB = parseInt(document.querySelector("#lado1").value)
     let ladoC = parseInt(document.querySelector("#lado1").value)
-    let resultado = ducument.querySelector("resultado")
+    let resultado = document.querySelector("#resultadoTriangulo")
     let tipoTriangulo = document.querySelector("#tipoTriangulo")
     
     let ladoAB = ladoA + ladoB
@@ -11,17 +11,21 @@ function mostrarResultado (){
 
 
     if (ladoAB > ladoC && ladoAC > ladoB && ladoBC > ladoA){
-    console.log("LADOS VALIDOS PARA FORMAR UM TRIANGULO");
+        tipoTriangulo.style.display = "block"
+    resultado.innerHTML = "LADOS VALIDOS PARA FORMAR UM TRIANGULO";
     
         if (ladoA === ladoB && ladoB === ladoC) {
-        console.log("triangulo equilátero");
+        tipoTriangulo.innerHTML = "triangulo equilátero";
         
     }   else if(ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
-        console.log("triangulo isosceles");
+        tipoTriangulo.innerHTML = "triangulo isosceles";
     }   else{
-        console.log("triangulo escaleno");
+        tipoTriangulo.innerHTML = "triangulo escaleno";
+
+        
         
     }} else {
-        console.log("LADOS INVALIDOS PARA FORMAR UM TRIANGULO");
+        tipoTriangulo.style.display ="none"
+        tipoTriangulo.innerHTML = "LADOS INVALIDOS PARA FORMAR UM TRIANGULO";
     }
 }
