@@ -8,25 +8,25 @@ let resulatadoConta
 
 if (operacoes === "1") {
     resulatadoConta = numero1 + numero2
-    resultado.innerHTML = "O resultado da soma é" + resulatadoConta
+    resultado.innerHTML = "O resultado da soma é " + resulatadoConta
 
 }
 
 else if (operacoes === "2") {
     resulatadoConta = numero1 - numero2
-    resultado.innerHTML = "O resultado da subtração é" = resulatadoConta
+    resultado.innerHTML = "O resultado da subtração é " + resulatadoConta
 
 }
 
 else if (operacoes === "3") {
     resulatadoConta = numero1 * numero2
-    resultado.innerHTML = "O resultado da multiplicacão é" + resulatadoConta
+    resultado.innerHTML = "O resultado da multiplicacão é " + resulatadoConta
 
 }
 
 else if (operacoes === "4") {
     resulatadoConta = numero1 / numero2
-    resultado.innerHTML = "O resultado da divisao é" + resulatadoConta
+    resultado.innerHTML = "O resultado da divisao é " + resulatadoConta
 
 }
 }
