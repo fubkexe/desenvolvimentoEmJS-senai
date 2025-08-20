@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHILE</title>
+</head>
+<body>
+   <h1>Jogo: Adivinhe um número</h1>
+    <p>Tente acertar um número entre 0 a 10</p>
+    <script>
+
+
+        const maquina = Math.floor(Math.random() * 10)
+        
+        
+        while (true) {
+            let numeroUsuario = parseInt(prompt("Tente adivinhar um número: "))
+            
+            if (numeroUsuario === maquina) {
+                window.alert("Você venceu")
+                break
+            } else {
+                window.alert("Tente novamente")
+            }
+        }
+            
+
+
+    </script>
+</body>
+</html>
+
